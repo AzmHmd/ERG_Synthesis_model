@@ -29,7 +29,9 @@ cd ERG_Synthesis_model
 ```python test.py --name [NAME_OF_PROJECT] --dataroot [PATH_TO_DATA] --results_dir [PATH_TO_SAVE] --no_instance```
 
 ### Docker
-We provide the pre-built Docker image and Dockerfile that can run this code repo. See `Dockerfile`.
+We also provide the pre-built Docker image and Dockerfile that can run this code repo. See `Dockerfile` and get the image by:
+```docker push azmhmd/ergsynthesismodel:latest```
+- the trained model is not uploaded due to the size. You can contact the authours to have access to the final generator model after training.
 
 
 ## Citation
