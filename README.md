@@ -23,22 +23,17 @@ cd ERG_Synthesis_model
 
 ### Training
 - Train a model at 1024 x 512 resolution (`bash ./scripts/train_512p.sh`):
-```bash
-#!./scripts/train_512p.sh
-python train.py --name label2city_512p
-```
-- To view training results, please checkout intermediate results in `./checkpoints/label2city_512p/web/index.html`.
+- 
+```python train.py --name [NAME_OF_PROJECT] --dataroot [PATH_TO_DATA] --no_instance```
 
+- To view training results, please checkout intermediate results in `./checkpoints/[NAME_OF_PROJECT]/web/index.html`.
 
 ### Testing
 - Test the model (`bash ./scripts/test_1024p.sh`):
-```bash
-#!./scripts/test_1024p.sh
-python test.py --name label2city_1024p --netG local --ngf 32 --resize_or_crop none
-```
+```python test.py --name [NAME_OF_PROJECT] --dataroot 'PATH_TO_DATA' --results_dir 'ATH_TO_SAVE' --no_instance```
 
 ### Docker
-We provide the pre-built Docker image and Dockerfile that can run this code repo. See `docker` directory.
+We provide the pre-built Docker image and Dockerfile that can run this code repo. See `Dockerfile`.
 
 
 ## Citation
