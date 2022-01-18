@@ -37,6 +37,10 @@ python train.py --name label2city_512p
 python test.py --name label2city_1024p --netG local --ngf 32 --resize_or_crop none
 ```
 
+### Docker
+We provide the pre-built Docker image and Dockerfile that can run this code repo. See `docker` directory.
+
+
 ## Citation
 
 If you find this useful for your research, please use the following.
