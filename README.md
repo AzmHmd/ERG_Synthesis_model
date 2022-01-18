@@ -3,18 +3,9 @@ Pytorch implementation of our method for high-resolution HE histology images. Th
 
 To use this model, follow the steps bellow.
 
-## Prerequisites
-- Linux or macOS
-- Python 3
-- NVIDIA GPU (11G memory or larger) + CUDA cuDNN
-
-## Getting Started
 ### Installation
 - Install PyTorch and dependencies from http://pytorch.org
 - Install python libraries [dominate](https://github.com/Knio/dominate).
-```bash
-pip install dominate
-```
 - Clone this repo:
 ```bash
 git clone https://github.com/AzmHmd/ERG_Synthesis_model.git
@@ -23,7 +14,6 @@ cd ERG_Synthesis_model
 
 ### Training
 - Train a model at 1024 x 512 resolution (`bash ./scripts/train_512p.sh`):
-- 
 ```python train.py --name [NAME_OF_PROJECT] --dataroot [PATH_TO_DATA] --no_instance```
 
 - To view training results, please checkout intermediate results in `./checkpoints/[NAME_OF_PROJECT]/web/index.html`.
