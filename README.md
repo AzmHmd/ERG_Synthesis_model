@@ -31,7 +31,7 @@ We provide the pre-built Docker image and Dockerfile that can run this code repo
 If you find this useful for your research, please use the following.
 
 ```
-@inproceedings{wang2018pix2pixHD,
+@inproceedings{hamidinekoo2021automated,
   title={Automated Quantification Of Blood Microvessels In Hematoxylin And Eosin Whole Slide Images},
   author={A Hamidinekoo, A Kelsey, N Trahearn, J Selfe, J Shipley, Y Yuan},  
   booktitle={MICCAI Workshop on Computational Pathology},
