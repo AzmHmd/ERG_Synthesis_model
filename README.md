@@ -19,13 +19,15 @@ cd ERG_Synthesis_model
 ```
 
 ### Training
-- Train a model at 1024 x 512 resolution (`bash ./scripts/train_512p.sh`):
+- Train a model at 1024 x 512 resolution:
+
 ```python train.py --name [NAME_OF_PROJECT] --dataroot [PATH_TO_DATA] --no_instance```
 
 - To view training results, please checkout intermediate results in `./checkpoints/[NAME_OF_PROJECT]/web/index.html`.
 
 ### Testing
-- Test the model (`bash ./scripts/test_1024p.sh`):
+- Test the model:
+
 ```python test.py --name [NAME_OF_PROJECT] --dataroot [PATH_TO_DATA] --results_dir [PATH_TO_SAVE] --no_instance```
 
 ### Docker
