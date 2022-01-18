@@ -1,4 +1,10 @@
 # ERG_Synthesis_model
+
+<p align='center'>  
+  <img src='sample.png' width='440'/>
+</p>
+
+
 Pytorch implementation of our method for high-resolution HE histology images. This model is based on Generative Adversarial Networks (GAN) that, from an input H&E image, can generate a synthetic Erythroblast Transformation specific related gene (ERG) stained image, highlighting vessel structures. <br><br>
 
 To use this model, follow the steps bellow.
