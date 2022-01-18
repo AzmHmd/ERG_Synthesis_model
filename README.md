@@ -1,7 +1,7 @@
 # ERG_Synthesis_model
 
 <p align='center'>  
-  <img src='sample.png' width='440'/>
+  <img src='sample.png' width='1000'/>
 </p>
 
 
